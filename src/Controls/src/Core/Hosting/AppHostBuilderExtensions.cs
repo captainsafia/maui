@@ -107,6 +107,7 @@ namespace Microsoft.Maui.Controls.Hosting
 			Editor.RemapForControls();
 			Entry.RemapForControls();
 			SearchBar.RemapForControls();
+			Layout.RemapForControls();
 
 			return builder;
 		}
