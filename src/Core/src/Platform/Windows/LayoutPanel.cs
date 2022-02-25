@@ -15,6 +15,10 @@ namespace Microsoft.Maui.Platform
 
 		public bool ClipsToBounds { get; set; }
 
+		//public bool InputTransparent { get; set; }
+
+		
+
 		protected override WSize MeasureOverride(WSize availableSize)
 		{
 			if (CrossPlatformMeasure == null)

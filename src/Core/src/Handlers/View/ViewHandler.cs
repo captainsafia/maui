@@ -315,7 +315,7 @@ namespace Microsoft.Maui.Handlers
 				wrapper.InputTransparent = inputTransparent;
 			}
 #else
-			((PlatformView?)handler.PlatformView)?.UpdateInputTransparent(view);
+			((PlatformView?)handler.PlatformView)?.UpdateInputTransparent(handler, view);
 #endif
 		}
 

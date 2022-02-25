@@ -17,7 +17,7 @@ namespace Microsoft.Maui.Handlers
 		{
 			[nameof(ILayout.Background)] = MapBackground,
 			[nameof(ILayout.ClipsToBounds)] = MapClipsToBounds,
-#if ANDROID
+#if ANDROID || WINDOWS
 			[nameof(IView.InputTransparent)] = MapInputTransparent,
 #endif
 		};

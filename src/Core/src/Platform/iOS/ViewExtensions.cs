@@ -454,7 +454,7 @@ namespace Microsoft.Maui.Platform
 			return size;
 		}
 		
-		public static void UpdateInputTransparent(this UIView nativeView, IView view)
+		public static void UpdateInputTransparent(this UIView nativeView, IViewHandler handler, IView view)
 		{
 			if (nativeView is not UIView uiView)
 				return;
